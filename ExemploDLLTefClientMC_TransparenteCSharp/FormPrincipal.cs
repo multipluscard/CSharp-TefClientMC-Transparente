@@ -258,7 +258,7 @@ namespace ExemploDLLTefClientMC_TransparenteCSharp
 
                             var auxCupom = strCupom + "-------------------------------\n\n";
 
-                            nsuRet = arrMsg[6].Replace("CAMPO0133=", "");
+                            nsuRet = arrMsg[5].Replace("CAMPO0133=", "");
                         }
 
                         if (arrMsg.Length == 2 && operacao == 200)
